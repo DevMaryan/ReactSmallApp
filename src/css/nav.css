@@ -1,0 +1,24 @@
+
+.navul{
+    width:100%;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color:#339CFF;
+    color:#FFF;
+}
+.navul li{
+    padding:0.5rem 1rem;
+}
+li a{
+    text-decoration: none;
+    color:#FFF;
+    cursor:pointer;
+    padding:0.5rem 1rem;
+}
+li a:hover{
+    color:#0a73d6;
+    background-color:#FFF;
+}

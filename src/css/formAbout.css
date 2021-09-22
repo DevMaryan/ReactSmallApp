@@ -1,0 +1,53 @@
+#about form{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    align-items:flex-end;
+    margin: 0 auto;
+    padding-right:200px;
+    margin-top:50px;
+}
+#about h2{
+  text-align:center;
+  margin-top:10px;
+}
+
+#about form{
+  display:flex;
+  flex-direction:column;
+  width:400px;
+  align-items:flex-end;
+  margin: 0 auto;
+  padding-right:200px;
+  margin-top:50px;
+}
+
+
+input{
+    padding:3px;
+    margin:5px;
+    border-radius:3px;
+    border:1px solid #999;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.btn-add-date{
+    color:#FFF;
+    background-color:#339CFF;
+    padding:0.5rem 1rem;
+    cursor:pointer;
+    border:0;
+    border-radius:3px;
+    margin-right:5px;
+}
