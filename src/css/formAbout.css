@@ -1,4 +1,4 @@
-#about form{
+.formdata{
     display:flex;
     flex-direction:column;
     width:400px;
@@ -11,8 +11,11 @@
   text-align:center;
   margin-top:10px;
 }
+#about{
+  position:relative;
+}
 
-#about form{
+.formabout{
   display:flex;
   flex-direction:column;
   width:400px;

@@ -1,0 +1,29 @@
+#popup{
+    position:absolute;
+    top:50%;
+    left:40%;
+    background:#FAFAFA;
+    color:#333;
+    padding:1rem;
+    border-radius:3px;
+    width:500px;
+    min-height:200px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#popup span{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color:#339CFF;
+    background-color:#333;
+    border-radius:50%;
+    padding:0.5rem 0.8rem;
+    cursor:pointer;
+}
+#popup span:hover{
+    opacity:0.9;
+}
